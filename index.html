@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr-Pet</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+       <link rel="stylesheet" href="./assets/vendor/animate/animate.css" />
+     <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            rel="stylesheet"
+        />
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-800">
+
+
+<nav class="bg-transparent border-gray-200 ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="/assets/img/logo.png" class="h-20" alt="dr pet Logo" />
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  bg-transparent">
+        <li>
+          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="/about.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+        </li>
+        <li>
+          <a href="#services" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+        </li>
+        <li>
+          <a href="#gallary" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Gallary</a>
+        </li>
+        <li>
+          <a href="#book" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="default-carousel" class="relative w-full " data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 p-2 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
+            <img src="/assets/img/DALL·E 2025-01-02 12.32.43 - A cute dog sitting in a bathtub filled with bubbles, holding a comb in its paw, and wearing trendy sunglasses. The bathroom is bright and cheerful, wi.png" class=" h-full absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/assets/img/DALL·E 2025-01-02 12.32.46 - A cheerful dog sitting upright, holding a pair of scissors in its paw, wearing cool sunglasses. The setting is a playful and colorful grooming salon w.png" class=" h-full absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/assets/img/DALL·E 2025-01-02 12.32.50 - A playful cat sitting upright, holding a nail clipper in its paw, wearing stylish sunglasses. The setting is a cozy living room with a soft carpet and.png" class=" h-full absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/assets/img/dog with scissor.png" class=" h-full absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Ih-full -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/assets/img/DALL·E 2025-01-01 14.36.21 - A cute dog sitting in a bathtub filled with bubbles, holding a comb in its paw. The bathroom is bright and cheerful, with white tiles and colorful rub.png" class=" h-full absolute block  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+
+<section class="wow bounceIn my-20 bg-gradient-to-r from-yellow-500 to-red-500 mx-auto rounded-lg container w-full">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
+        <div class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
+            <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <span class="text-sm font-medium">We now work on weekends</span> 
+            <svg class="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+        </div>
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">We invest in the wellbeing of your pets</h1>
+<p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">Here at Dr Pet, we focus on providing personalized  and expert care to ensure your furry friends lead happy and healthy lives.</p>
+
+    </div>
+</section>
+<section id="services">
+    <div class="container mx-auto my-10 p-2">
+        <h1 class="text-center text-white mb-20 text-6xl font-extrabold tracking-tight leading-none">
+            Our services
+        </h1>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="wow bounceIn flex flex-col items-center justify-center p-6 rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-blue-500">
+                <h2 class="mb-2 text-xl font-semibold text-white">Nail Trimming</h2>
+                <p class=" text-center text-white ">Ensure your pet’s comfort and safety with perfectly groomed nails.</p>
+            </div>
+            <div class="wow bounceIn flex flex-col items-center justify-center p-6 rounded-lg shadow-lg bg-gradient-to-r from-sky-500 to-indigo-500">
+                <h2 class="mb-2 text-xl font-semibold text-white">Warm Water Bath</h2>
+                <p class=" text-center text-white ">Pamper your pet with a soothing, warm bath that leaves them feeling refreshed.</p>
+            </div>
+            <div class="wow bounceIn flex flex-col items-center justify-center p-6 rounded-lg shadow-lg  bg-gradient-to-r from-violet-500 to-fuchsia-500">
+                <h2 class="mb-2 text-xl font-semibold text-white">Teeth Brushing</h2>
+                <p class=" text-center text-white ">Keep those pearly whites sparkling and your pet’s breath fresh with professional care.</p>
+            </div>
+            <div class="wow bounceIn flex flex-col items-center justify-center p-6 rounded-lg shadow-lg bg-gradient-to-r from-purple-500 to-pink-500">
+                <h2 class="mb-2 text-xl font-semibold text-white">Hair Cut</h2>
+                <p class=" text-center text-white ">Style and comfort meet with tailored haircuts for every breed.</p>
+            </div>
+            <div class="wow bounceIn flex flex-col items-center justify-center p-6 rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-blue-500">
+                <h2 class="mb-2 text-xl font-semibold text-white">Anal Secretion</h2>
+                <p class=" text-center text-white ">Maintain your pet’s health and hygiene with gentle, effective gland care.</p>
+            </div>
+            <div class="wow bounceIn flex flex-col items-center justify-center p-6 rounded-lg shadow-lg bg-gradient-to-r from-pink-500 to-purple-500">
+                <h2 class="mb-2 text-xl font-semibold text-white">De-worming</h2>
+                <p class=" text-center text-white ">Protect your pet’s well-being with regular and effective de-worming treatments.</p>
+            </div>
+            <div class="wow bounceIn flex flex-col items-center justify-center p-6 rounded-lg shadow-lg bg-gradient-to-r from-orange-500 to-red-500">
+                <h2 class="mb-2 text-xl font-semibold text-white">Tick & Flea Treatment</h2>
+                <p class=" text-center text-white ">Say goodbye to pesky pests with our reliable tick and flea control solutions.</p>
+            </div>
+            <div class="wow bounceIn flex flex-col items-center justify-center p-6 rounded-lg shadow-lg bg-gradient-to-r from-yellow-500 to-red-500">
+                <h2 class="mb-2 text-xl font-semibold text-white">De-shedding</h2>
+                <p class=" text-center text-white ">Keep shedding under control and your home cleaner with our de-shedding services.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="book" class="how container mx-auto my-20 text-white ">
+      <div class="how-heading text-center wow  my-8">
+        <h1 class="text-center text-white mb-10 text-6xl font-extrabold tracking-tight leading-none">How to book </h1>
+        <p class="text-lg">Only 3 quick and easy steps to follow</p>
+      </div>
+      <div>
+         <img  src="/assets/img/whatsapp-qr-code.png" class="w-60 mx-auto block wow bounceIn"/>
+           <div class="flex justify-center  p-2 my-12">
+            <a class=" text-center text-7xl wow bounceIn" href="https://wa.me/27685448139"><i class="fab fa-whatsapp"></i></a>
+           </div>
+      </div>
+      <div class="flex justify-between mb-4 items-center">
+        <div class="flex flex-col justify-center items-center" data-wow-delay="700ms">
+          <div class="wow bounceIn bg-gradient-to-r from-cyan-500 to-blue-500 w-20 h-20 rounded-full flex flex-col justify-center items-center  ">
+            <h3>1</h3>
+          </div>
+          <img  src="./assets//img/scan.png"  class="w-90 wow bounceIn  block my-4" />
+          <div class="item-content">Scan the QR code above Or click on the whatsapp logo above</div>
+        </div>
+        <div class="flex flex-col justify-center items-center" data-wow-delay="700ms">
+          <div class=" wow bounceIn bg-gradient-to-r from-purple-500 to-pink-500 w-20 h-20 rounded-full flex flex-col justify-center items-center ">
+            <h3>2</h3>
+          </div>
+           <img  src="./assets//img/message.png"  class=" wow bounceIn w-90 block my-4" />
+          <div class="item-content">Tell us what service you need</div>
+        </div>
+        <div class="flex flex-col justify-center items-center" data-wow-delay="700ms">
+          <div class="wow bounceIn bg-gradient-to-r from-orange-500 to-yellow-500 w-20 h-20 rounded-full flex flex-col justify-center items-center">
+            <h3>3</h3>
+          </div>
+           <img  src="./assets//img/tick-2.png"  class=" wow bounceIn w-60 block my-4" />
+          <div class="item-content">That's it, we will get back to you ASAP and be on your premise in no time</div>
+         
+        </div>
+      </div>
+
+      
+    </section>
+
+    
+<section class="container mx-auto my-20" id="gallary">
+ <h1 class="text-center text-white mb-20 text-6xl font-extrabold tracking-tight leading-none">
+    Our gallery
+ </h1>  
+<div id="gallery" class="relative w-full " data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/assets/img/bath (1).jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+    
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/assets/img/bath (2).jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+    
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/assets/img/bath (3).jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+</section>
+
+
+
+
+<footer class="bg-blue-600 rounded-lg shadow  m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <img src="/assets/img/logo.png" class="h-20" alt="Dr pet Logo" />
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm space-x-4 font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="/about.html" class="hover:underline">About</a>
+                </li>
+                <li>
+                    <a href="#book" class="hover:underline">Contact</a>
+                </li>
+                <li>
+                    <a href="#gallary" class="hover:underline">Gallary</a>
+                </li>
+                <li>
+                    <a href="#services" class="hover:underline">Services</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="/" class="hover:underline">Dr Pet™</a>. All Rights Reserved.</span>
+    </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+<script src="./assets/vendor/wow/wow.min.js"></script>
+  <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
